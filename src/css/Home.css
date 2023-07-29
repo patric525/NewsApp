@@ -1,0 +1,146 @@
+.mainhomcon {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.homecard {
+    width: 76rem;
+    display: grid;
+    grid-template-columns: 24rem 24rem 24rem;
+    justify-content: space-between;
+    row-gap: 20rem;
+}
+
+.homecard div {
+    width: 24rem;
+    height: 13rem;
+    background-color: black;
+    color: white;
+}
+
+.homecard img {
+    width: 24rem;
+    display: flex;
+    justify-content: center;
+}
+
+.homecard .title {
+    height: 6rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homecard .description {
+    height: 11rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    border-top-left-radius: 4rem;
+}
+
+.title p {
+    width: 18rem;
+}
+
+.description p {
+    width: 18rem;
+}
+
+.h1 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+        .homecard div{
+         width: 19rem;
+        }
+        .homecard img{
+         width: 19rem;
+        }
+        .homecard {
+         width: 56rem;
+         display: grid;
+         grid-template-columns: 22rem 24rem 11rem;
+         justify-content: space-between;
+         row-gap: 20rem;
+     }
+     }
+    
+
+
+@media only screen and (max-width: 768px) {
+   .homecard div{
+    width: 19rem;
+   }
+   .homecard img{
+    width: 19rem;
+   }
+   .homecard {
+    width: 41rem;
+    display: grid;
+    grid-template-columns: 22rem 24rem 11rem;
+    justify-content: space-between;
+    row-gap: 20rem;
+}
+}
+
+@media only screen and (max-width: 425px) {
+    .homecard {
+        display: grid;
+        grid-template-columns: 19rem;
+        justify-content: center;
+        row-gap: 20rem;
+    }
+    .homecard div {
+        width: 18rem;
+    }
+
+    .homecard img {
+        width: 18rem;
+    }
+}
+
+
+@media only screen and (max-width: 425px) { 
+  
+    .homecard {
+        display: grid;
+        grid-template-columns: 17rem;
+        justify-content: center;
+        row-gap: 20rem;
+    }
+  
+  
+    .homecard img{
+        width: 19rem;
+    }
+    .homecard div{
+        width: 19rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .homecard {
+        display: grid;
+        grid-template-columns: 16rem;
+        justify-content: center;
+        row-gap: 20rem;
+    }
+  
+ }
+
+
+ @media only screen and (max-width: 320px) {
+    .homecard {
+        display: grid;
+        grid-template-columns: 13rem;
+        justify-content: center;
+        row-gap: 20rem;
+    }
+  
+ }
